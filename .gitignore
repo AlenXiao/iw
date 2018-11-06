@@ -5,3 +5,5 @@ iw
 version.c
 iw.8.gz
 *-stamp
+tags
+cscope.out

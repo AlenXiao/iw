@@ -76,6 +76,7 @@ endif
 
 ifeq ($(NLLIBNAME),)
 $(error Cannot find development files for any supported version of libnl)
+$(error Makesure libnl-dev and pkg-config were installed on your computer)
 endif
 
 LIBS += $(shell $(PKG_CONFIG) --libs $(NLLIBNAME))
