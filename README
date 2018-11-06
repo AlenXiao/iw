@@ -13,3 +13,22 @@ http://wireless.kernel.org/en/users/Documentation/iw.
 
 Please send all patches to Johannes Berg <johannes@sipsolutions.net>
 and CC linux-wireless@vger.kernel.org for community review.
+
+if make fails, please make you install pkg-config and libnl on your computer
+
+sudo apt install pkg-config
+sudo apt install libnl-dev
+
+if you fail to install libnl-dev, add source in soure-list
+sudo vim /etc/apt/sources.list and insert the following source.
+
+deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
